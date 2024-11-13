@@ -375,7 +375,7 @@ function App() {
                     </select>
                     <input
                       type="number"
-                      placeholder="Credits"
+                      placeholder="Count"
                       value={course.credits}
                       onChange={(e) =>
                         handleChange(course.id, "credits", e.target.value)
