@@ -399,10 +399,10 @@ function App() {
       {/* GPA Result Section */}
       {allYearsGpa !== null && threeYearsGpa !== null && (
         <div className="mt-6 w-full max-w-md bg-white p-4 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold text-gray-800 flex justify-between px-5">
+          <h2 className="text-lg md:text-2xl font-semibold text-gray-800 flex justify-between px-5">
             GPA (All Years): <span> {allYearsGpa}</span>
           </h2>
-          <h2 className="text-2xl font-semibold text-gray-800 mt-4 flex justify-between px-5">
+          <h2 className="text-lg md:text-2xl font-semibold text-gray-800 mt-4 flex justify-between px-5">
             GPA (Last 3 Years):  <span> {threeYearsGpa}</span>
           </h2>
           <h3 className="text-xl font-semibold text-gray-700 mt-10">
